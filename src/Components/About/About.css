@@ -1,0 +1,34 @@
+.about {
+    background-color: rgba(7, 7, 7, 0.041);
+}
+.section-heading h2{
+    font-family: 'Permanent Marker';
+
+}
+.my-image img{
+    border-radius: 50%;
+    max-height: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.into-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 0.03cm;
+    font-size: 1rem;
+    line-height: 27px;
+    text-align: justify;
+}
+.interests-skills-heading {
+    font-size: 2rem;
+}
+.interests-skills i {
+    font-size: 1.4rem;
+}
+.interests-skills p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
