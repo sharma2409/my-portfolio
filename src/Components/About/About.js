@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 
 function About() {
 	return (
-		<section className="about pt-5">
+		<section className="about  py-5">
 			{/* Heading */}
 			<Row>
 				<Col className="text-center section-heading">
@@ -18,7 +18,7 @@ function About() {
 				<Col md="6" className="d-flex my-image justify-content-center">
 					<img src={image} alt="" />
 				</Col>
-				<Col className="p-4 pr-lg-5">
+				<Col className="p-4 pr-lg-5 d-flex align-items-center justify-content-center">
 					<p className="into-text">
 						A mechanician who enjoys solving challenging problems
 						in the field of mechanical engineering by employing computational
@@ -40,32 +40,32 @@ function About() {
 					<Row className="interests-skills text-center">
 						<div className="mx-auto">
 
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Structural Computational Mechanics
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Design Optimization
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Additive Manufacturing
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Metamaterial Design
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Computational transport phenomenon
@@ -75,45 +75,45 @@ function About() {
 					</Row>
 				</Col>
 				<Col className="d-flex justify-content-center align-items-center">
-					<h3 className="interests-skills-heading">Research Interests</h3>
+					<h3 className="interests-skills-heading p-3 ">Research Interests</h3>
 				</Col>
 			</Row>
 
 			{/* Skills */}
 			<Row className="pt-5">
 				<Col className="d-flex border-right justify-content-center align-items-center">
-					<h3 className="interests-skills-heading">My SkillSet</h3>
+					<h3 className="interests-skills-heading p-3">My SkillSet</h3>
 				</Col>
 				<Col>
 					<Row className="interests-skills text-center">
 						<div className="mx-auto">
 
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Structural Computational Mechanics
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Design Optimization
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Additive Manufacturing
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Metamaterial Design
 						</p>
 							</Col>
-							<Col className="d-flex" sm="12">
+							<Col className="d-flex hover" sm="12">
 								<i className="fas fa-magic pr-2"></i>
 								<p>
 									Computational transport phenomenon

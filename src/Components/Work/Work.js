@@ -8,13 +8,13 @@ import blast from "../../assets/blast.jpg";
 
 function Work() {
 	return (
-		<section className="work pt-5 px-5">
+		<section className="work  py-5 px-5">
 			<Row>
 				<Col className="text-center section-heading">
 					<h2>My Work</h2>
 				</Col>
 			</Row>
-
+<div className="container">
 			<Row className="mt-3">
 				<Col md="6" className="my-3">
 					<div className="my-project">
@@ -54,6 +54,8 @@ function Work() {
 				</Col>
 				
 			</Row>
+
+</div>
 
 		</section>
 	)
