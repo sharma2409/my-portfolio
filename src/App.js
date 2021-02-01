@@ -4,6 +4,7 @@ import { Row,Col } from "react-bootstrap";
 import  LandingPage  from "./Components/LandingPage/LandingPage";
 import  About  from "./Components/About/About";
 import Work from './Components/Work/Work';
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   useEffect(() => {
@@ -48,7 +49,7 @@ function App() {
       {/* Work */}
       <Work />
       {/* Contact */}
-
+      <Contact />
       {/* Footer */}
 
     </div>
