@@ -22,6 +22,7 @@
 }
 .my-project .overlay{
     opacity: 0;
+    z-index: -1;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -44,6 +45,7 @@
 }
 .my-project:hover .overlay {
     opacity: 1;
+    z-index: 1;
 }
 .my-project .overlay a {
     background-color: transparent;

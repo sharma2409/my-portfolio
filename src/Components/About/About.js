@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 
 function About() {
 	return (
-		<section className="about  py-5">
+		<section className="about  py-5" id="about">
 			{/* Heading */}
 			<Row>
 				<Col className="text-center section-heading">
@@ -36,37 +36,37 @@ function About() {
 
 			{/* Interests */}
 			<Row className="pt-5">
-				<Col className="border-right">
+				<Col md="6" className="border-right order-2 order-md-1">
 					<Row className="interests-skills text-center">
 						<div className="mx-auto">
 
-							<Col className="d-flex hover" sm="12">
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
 								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Structural Computational Mechanics
-						</p>
+									</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
-								<i className="fas fa-magic pr-2"></i>
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Design Optimization
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
 
-								<i className="fas fa-magic pr-2"></i>
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Additive Manufacturing
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
-								<i className="fas fa-magic pr-2"></i>
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Metamaterial Design
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
-								<i className="fas fa-magic pr-2"></i>
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
 									Computational transport phenomenon
 						</p></Col>
@@ -74,49 +74,60 @@ function About() {
 
 					</Row>
 				</Col>
-				<Col className="d-flex justify-content-center align-items-center">
+				<Col md="6" className="d-flex justify-content-center order-1 order-md-2 mb-5 mb-md-0 align-items-center">
 					<h3 className="interests-skills-heading p-3 ">Research Interests</h3>
 				</Col>
 			</Row>
 
 			{/* Skills */}
 			<Row className="pt-5">
-				<Col className="d-flex border-right justify-content-center align-items-center">
+				<Col md="6" className="d-flex border-right justify-content-center mb-5 mb-md-0 align-items-center">
 					<h3 className="interests-skills-heading p-3">My SkillSet</h3>
 				</Col>
-				<Col>
+				<Col md="6">
 					<Row className="interests-skills text-center">
 						<div className="mx-auto">
 
-							<Col className="d-flex hover" sm="12">
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
 								<i className="fas fa-cogs pr-2"></i>
 								<p>
-									Structural Computational Mechanics
+								Non-Linear Finite Element Analysis
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
-								<i className="fas fa-magic pr-2"></i>
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
-									Design Optimization
+								Topology Optimization
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
 
-								<i className="fas fa-magic pr-2"></i>
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
-									Additive Manufacturing
+								Reacting flow modeling (Cantera)
+
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
-								<i className="fas fa-magic pr-2"></i>
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
-									Metamaterial Design
+								C++ Programming
 						</p>
 							</Col>
-							<Col className="d-flex hover" sm="12">
-								<i className="fas fa-magic pr-2"></i>
+							<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
 								<p>
-									Computational transport phenomenon
+								MATLAB Programming
+						</p></Col>
+						<Col className="d-flex interest-skill p-3 mb-3" sm="12">
+								<i className="fas fa-cogs pr-2"></i>
+								<p>
+								Python Programming
+						</p></Col>
+						<Col className="d-flex interest-skill p-3 mb-3" sm="12"id="gnu-linux">
+								<i className="fas fa-cogs pr-2"></i>
+								<p>
+								GNU/Linux Operating System
 						</p></Col>
 						</div>
 

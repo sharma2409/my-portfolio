@@ -7,7 +7,7 @@ function LandingPage() {
 				<h1>Raghav Sharma MS</h1>
 				<p>Mechanician</p>
 			</div>
-			<a href="#about" id="arrow-down"><i className="fas fa-angle-down fa-2x"></i></a>
+			<a href="#arrow-down" id="arrow-down"><i className="fas fa-angle-down fa-2x"></i></a>
 		</div>
 	)
 }

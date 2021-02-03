@@ -17,7 +17,7 @@ function App() {
       
           }
     })
-  }, [window.scrollY])
+  }, [])
 
   
   return (
@@ -33,9 +33,9 @@ function App() {
           </Col>
           <Col className="d-flex justify-content-md-end align-items-center justify-content-center">
             <ul style={{ textDecoration: "none", listStyle: "none", maxWidth:"300px" }} className="d-flex m-0 p-0">
-              <li>About</li>
-              <li className="ml-5">Work</li>
-              <li className="ml-5">Contact</li>
+              <li><a href="#arrow-down">About</a></li>
+              <li className="ml-5"><a href="#gnu-linux">Work</a></li>
+              <li className="ml-5"><a href="#for-work">Contact</a></li>
             </ul>
           </Col>
         </Row>

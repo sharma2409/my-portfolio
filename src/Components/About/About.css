@@ -1,10 +1,7 @@
 .about {
     background-color: rgba(7, 7, 7, 0.041);
 }
-.section-heading h2{
-    font-family: 'Permanent Marker';
 
-}
 .my-image img{
     border-radius: 50%;
     max-height: 300px;
@@ -33,7 +30,26 @@
     font-size: 1.1rem;
     font-weight: bold;
 }
-.hover:hover{
-    color: #007bff;
+.interest-skill {
+    border: 2px solid rgba(19, 19, 19, 0.897);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+}
+
+.interest-skill p {
+    margin: 0;
+}
+
+.interest-skill:hover{
+    color: white;
+    background-color: rgba(19, 19, 19, 0.897);
     transform: scale(1.1,1.0);
 }
